@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: rgb(41, 41, 129);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .menu {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #0059b3;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav .menu a:hover {
+            background-color: #0073e6;
+        }
+
+        nav .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .search-bar input[type="text"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        nav .search-bar button {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        nav .search-bar button:hover {
+            background-color: #0059b3;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 5px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Information World</h1>
+        <p>Your gateway to knowledge and insights</p>
+    </header>
+
+    <nav>
+        <div class="menu">
+            <a href="#section1">Technology</a>
+            <a href="file:///C:/Users/pahibhara/Desktop/html/science.html"target = "_blank">Science</a>
+            <a href="#section3">History</a>
+            <a href="#section4">Culture</a>
+            <a href="file:///C:/Users/pahibhara/Desktop/html/humain.html"target = "_blank">Humain</a>
+            <a href="file:///C:/Users/pahibhara/Desktop/html/AI.html"target = "_blank">AI</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search topics...">
+            <button type="button">Search</button>
+                
+        </div>
+    </nav>
+
+    <main>
+        <section id="section1" class="section">
+            <h2>Technology</h2>
+            <p>Explore the latest trends and developments in technology. From AI to the latest gadgets, we cover it all.</p>
+            <a href="#" class="button">Learn More</a>
+        </section>
+
+        <section id="section1" class="section">
+            <h2>Humain</h2>
+            <p>Humans are a species of highly intelligent primates. They are characterized by their upright posture, complex brain, and ability to create...</p>
+            <a href = "file:///C:/Users/pahibhara/Desktop/html/humain.html" class="button" target = "_blank">Learn More</a>
+        </section>
+
+        <section id="section2" class="section">
+            <h2>Science</h2>
+            <p>Discover the fascinating world of science. We delve into topics ranging from physics to biology...</p>
+            <a href="file:///C:/Users/pahibhara/Desktop/wikepidea/science.html" class="button" target = "_blank">Learn More</a>
+        </section>
+
+        <section id="section3" class="section">
+            <h2>History</h2>
+            <p>Uncover the stories and events that shaped our world. History comes alive with our in-depth articles.</p>
+            <a href="#" class="button">Learn More</a>
+        </section>
+
+        <section id="section4" class="section">
+            <h2>Culture</h2>
+            <p>Dive into the rich tapestry of human culture. From art to customs, explore the diversity of human expression.</p>
+            <a href="" class="button">Learn More</a>
+       </section>
+
+        <section id="section5" class="section">
+            <h2>AI</h2>
+            <p>If you want to use the ai click learn more</p>
+            <a href="file:///C:/Users/pahibhara/Desktop/html/AI.html" class="button" target = "_block">Learn More</a>
+        </section>
+    </main>
+</body>
+</html>
